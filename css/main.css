@@ -1,0 +1,81 @@
+body{
+    font-family: 'Lato', 'Helvetica', 'sans-serif';
+    padding: 5% 20% 20% 20%;
+}
+h1 a{
+    color: rgb(195, 31, 31);
+    font-size: 55px;
+    width: 25%;
+    text-decoration: none;
+    font-weight: 200;
+}
+h2{
+    font-weight: 100;
+}
+nav a{
+   color: lightgrey; 
+   font-weight: 100;
+   font-size: 20px;
+   text-decoration-line: 100 lightgray;
+   padding: 0.5em 0.5em 0.5em 0.5em; 
+}
+h3{
+    color:lightgray;
+    font-weight: 100;
+    font-size: 35px;
+    margin-bottom: -15px;
+}
+
+article{
+    border-bottom: lightgrey solid; 
+    padding: 3em 1em;
+}
+article h2 a{
+    color: black;
+    text-decoration: none;
+    padding: 0em;
+    font-size: 43px;
+}
+header + article img{
+    width: 702px;
+    height: 200px;
+}
+article p{
+    width: 730px;
+    line-height: 1.5;
+}
+article p::first-letter {
+    font-size: 658%;
+    font-weight: 400;
+    color: lightgray;
+    border-radius: 3px;
+    padding: 6px 11px;
+    margin-top: -6%;
+    margin-bottom: -7%;
+    margin-right: 1%;
+    margin-left: 1%;
+    float: left;
+}
+article h4 a{
+    color: red;
+    text-decoration: none;
+    float: right;
+    position: absolute;
+    right: 25px;
+    padding-right: 22%;
+}
+footer nav{
+    padding: 60px 0px 0px;
+    
+}
+footer nav a{
+    color: red; 
+    font-weight: 100;
+    text-decoration: none;
+    margin-top: 100%;
+    
+}
+footer p{
+    color:lightgray;
+}
+
